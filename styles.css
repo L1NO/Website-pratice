@@ -173,8 +173,7 @@ p {
 	background-color: white;
 	z-index: -1;
 }
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
+#header .hamburger .bar::after, #header .hamburger .bar::before {
 	content: '';
 	position: absolute;
 	height: 100%;
@@ -190,10 +189,10 @@ p {
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::before {
+#header .hamburger.active .bar::after {
 	bottom: 0;
 }
-#header .hamburger.active .bar::after {
+#header .hamburger.active .bar::before {
 	top: 0;
 }
 /* End Header section */
