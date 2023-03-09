@@ -189,10 +189,10 @@ p {
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::after {
+#header .hamburger.active .bar::before {
 	bottom: 0;
 }
-#header .hamburger.active .bar::before {
+#header .hamburger.active .bar::after {
 	top: 0;
 }
 /* End Header section */
