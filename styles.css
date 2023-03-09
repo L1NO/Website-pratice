@@ -157,7 +157,7 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
-#header .hamburger::after {
+#header .hamburger:after {
 	position: absolute;
 	content: '';
 	height: 100%;
